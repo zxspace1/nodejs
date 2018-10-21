@@ -1,0 +1,23 @@
+header {
+    color: #fff;
+    padding: 20px;
+    .logo i {
+        color: $yellow-color;
+        @include header-icon;
+    }
+    .contact {
+        i {
+            @include header-icon;
+        }
+        .call {
+            font-size: 10px;
+            margin: 0;
+            
+        }
+        .phone {
+            margin: 0;
+            
+        }
+    }
+
+}

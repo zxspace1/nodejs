@@ -1,0 +1,15 @@
+@mixin header-icon {
+    
+    float: left;
+    line-height: 48px;
+    font-size: 2em;
+    margin-right: 10px;
+}
+
+@mixin submit-btn {
+    border: none;
+    background-color: $yellow-color;
+    transition: all .3s;
+    padding: 10px 20px;
+    font-weight: 700;
+}

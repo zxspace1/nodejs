@@ -1,0 +1,17 @@
+@import "zmienne";
+@import "mixins";
+
+body {
+    font-family: $main-font;
+    background-color: $main-color;
+    background-image: url(../img/background.png);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 120vh;
+}
+
+.yellow {
+    color: $yellow-color;
+}
+
