@@ -1,0 +1,29 @@
+@import "zmienne";
+@import "mixins";
+
+
+
+.kwadrat-drugi {
+    @include super-kwadrat;
+    @include change-kwadrat(25%, 400px, 400px, green);
+}
+
+.kwadrat {
+    @include super-kwadrat;
+    @include change-kwadrat(50%, 400px, 400px, aqua);
+}
+
+body {
+    background-color: $main-color;
+}
+
+nav {
+    background: $nav-background;
+
+    ul {
+        li {
+            color: green;
+        }
+    }
+
+}
